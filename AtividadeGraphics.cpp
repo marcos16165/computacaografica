@@ -1,11 +1,12 @@
   /*
-    * Projeto: ImplementaÁ„o da biblioteca graphics
+    * Projeto: Implementa√ß√£o da biblioteca graphics
     * Autor: Joyce Claine e Marcos Monteiro 
 	* Dados: 
 	* Versao: 1.0
-	* Data da ultima modificao:
-    * DescriÁ„o: Primeita atividade de computaÁ„o gr·fica
+	* Data da ultima modificao:19/02/219
+    * Descri√ß√£o: Primeita atividade de computa√ß√£o gr√°fica
 */
+
 
 #include <iostream>
 #include <math.h>
@@ -33,11 +34,11 @@ void menu(){
     cout << "[1] Algoritmo Reta: Equacao Geral" << endl;//OK
     cout << "[2] Algoritmo Reta: Equacao Diferencial" << endl;//OK
     cout << "[3] Algoritmo Reta: Bresenham" << endl; //OK
-    cout << "[4] Algoritmo Circuferencia: Equacao Parametrica" << endl; //N„o Implementado 
+    cout << "[4] Algoritmo Circuferencia: Equacao Parametrica" << endl; //N√£o Implementado 
     cout << "[5] Algoritmo Circunferencia: Ponto Medio" << endl; //OK
     cout << "[6] Desenhar Retangulo" << endl; //OK
     cout << "[7] Desenhar Poligono" << endl; //OK
-    cout << "[8] Preencher Poligono" << endl; //N„o Implementado
+    cout << "[8] Preencher Poligono" << endl; //N√£o Implementado
     cout << "[9] Tracejado" << endl; //OK
 	cout << "[10] Construir Grade na Janela" << endl; //OK
     cout << "[11] Sair" << endl; //OK
@@ -45,7 +46,7 @@ void menu(){
 }
 
 //--------------------------------------------------------------------------
-//------------------EQUA«√O GERAL------------------
+//------------------EQUA√á√ÉO GERAL------------------
 //--------------------------------------------------------------------------
 
 void EquacaoGeral(int p1[2],int p2[2]){ 
@@ -68,7 +69,7 @@ void EquacaoGeral(int p1[2],int p2[2]){
 }
 
 //--------------------------------------------------------------------------
-//------------------EQUA«√O DIFERENCIAL------------------
+//------------------EQUA√á√ÉO DIFERENCIAL------------------
 //--------------------------------------------------------------------------
 
 void DDA(int p1[2], int p2[2]){
@@ -131,7 +132,7 @@ void Bresenham(int x1, int y1, int x2, int y2){
 }   
 
 //--------------------------------------------------------------------------
-//------------------EQUA«√O PARAM…TRICA------------------
+//------------------EQUA√á√ÉO PARAM√âTRICA------------------
 //--------------------------------------------------------------------------
 
 
@@ -140,7 +141,7 @@ void Bresenham(int x1, int y1, int x2, int y2){
 
 
 //--------------------------------------------------------------------------
-//------------------ALGORITMO DO PONTO M…DIO------------------
+//------------------ALGORITMO DO PONTO M√âDIO------------------
 //--------------------------------------------------------------------------
 
 //------------------SIMETRIA DE ORDEM 8------------------
