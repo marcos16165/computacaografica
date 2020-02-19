@@ -3,9 +3,10 @@
     * Autor: Joyce Claine e Marcos Monteiro 
 	* Dados: 
 	* Versao: 1.0
-	* Data da ultima modificao:19/02/219
+	* Data da ultima modificao:19/02/2020
     * Descrição: Primeita atividade de computação gráfica
 */
+
 
 
 #include <iostream>
